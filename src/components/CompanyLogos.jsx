@@ -1,9 +1,9 @@
 import React from 'react'
 import { companyLogos } from '../constants'
 
-const CompanyLogos = ({ classNames }) => {
+const CompanyLogos = ({ className }) => {
     return (
-        <div className={classNames}>
+        <div className={className}>
             <h5 className='tagline mb-6 text-center text-n-1/50'>Helping people create beautiful content at</h5>
             <ul className='flex'>
                 {companyLogos.map((logo, index ) => (
