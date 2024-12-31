@@ -4,6 +4,8 @@ import Button from './components/Button'
 import Collabration from './components/Collabration'
 import Header from './components/Header'
 import Hero from './components/Hero'
+import Pricing from './components/Pricing'
+import Services from './components/Services'
 
 const App = () => {
 
@@ -14,6 +16,8 @@ const App = () => {
         <Hero />
         <Benefits />
         <Collabration />
+        <Services />
+        <Pricing />
       </div>
         <ButtonGradient />
     </>
