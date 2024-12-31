@@ -7,18 +7,39 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# Dependencies
+node_modules/
 
-# Editor directories and files
-.vscode/*
+# Build and Output
+dist/
+dist-ssr/
+build/
+
+# Firebase
+.firebase/
+.firebaserc
+firebase.json
+firestore.indexes.json
+firestore.rules
+
+# Configuration Files
+src/utils/config.js
+
+# Local Environment Files
+*.local
+.env
+.env.*
+
+# Editor Directories and Files
+.vscode/
 !.vscode/extensions.json
-.idea
+.idea/
 .DS_Store
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# Ignore temporary IDE or OS-generated files
+Thumbs.db

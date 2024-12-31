@@ -8,7 +8,7 @@ import { Gradient, PhotoChatMessage, VideoBar, VideoChatMessage } from './design
 
 const Services = () => {
     return (
-        <Section id='#how-to-use'>
+        <Section id='how-to-use'>
             <div className='container'>
                 <Heading title='Generative AI made for creators.' text='Brainwave unlocks the potential of AI-powered applications'/>
                 <div className='relative'>
